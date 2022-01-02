@@ -1,0 +1,16 @@
+.img-content {
+    width: 100%;
+    height: 180px;
+    background-image: url(img/soundback.86e25ebd.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+    background-position: top;
+}
+
+.qqq {
+    width: 100%;
+    height: 170px;
+}

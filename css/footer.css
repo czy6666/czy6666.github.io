@@ -1,0 +1,108 @@
+.footer {
+    max-width: 1520px;
+    height: 158.4px;
+    padding: 15px 0;
+    margin: 15px auto 0;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fff;
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer1 a {
+    color: #616161;
+    font-size: 14px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.footer1 a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: -13px;
+    height: 16px;
+    border-left: 1px solid #9e9e9e;
+}
+
+#after-none::after {
+    display: none;
+}
+
+.footer2 p {
+    position: absolute;
+    left: 360px;
+    top: 50px;
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+.footer2 a {
+    display: inline-block;
+    color: #9e9e9e;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.changegrey:hover {
+    color: #616161;
+}
+
+.po-logo::before {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/beianicon.png);
+    content: '';
+    position: absolute;
+    left: -3px;
+}
+
+.po-logo {
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer3 p {
+    display: inline;
+}
+
+.footer3 {
+    color: #9e9e9e;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.footer4 {
+    color: #9e9e9e;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#to-top {
+    display: block;
+    top: -100px;
+    text-decoration: none;
+    position: fixed;
+    right: 30px;
+    overflow: hidden;
+    width: 70px;
+    box-sizing: border-box;
+    border: none;
+    text-indent: 100%;
+    z-index: 100;
+    transition: top 1s ease-in-out;
+}
+
+.rope {
+    display: block;
+    background: url(img/rope.png);
+    text-indent: 100%;
+    height: 0px;
+    transition: 1.5s;
+}

@@ -1,0 +1,165 @@
+ .hot-music-content::after {
+     content: "";
+     display: block;
+     clear: both;
+ }
+ 
+ .hot-music {
+     width: 1140px;
+     margin: 0 auto;
+     height: 256px;
+     margin-top: -30px;
+     position: relative;
+ }
+ 
+ .hot-music-title {
+     width: 670px;
+     height: 40px;
+     padding-bottom: 10px;
+     transition: 0.5s;
+ }
+ 
+ .hot-music-content {
+     width: 1140px;
+     height: 280px;
+     margin: 0 auto;
+     position: relative;
+     float: left;
+ }
+ 
+ .hot-music-title-left {
+     font-size: 24px;
+     float: left;
+ }
+ 
+ .hot-music-title a {
+     display: inline;
+     float: right;
+     text-decoration: none;
+     width: 43px;
+     height: 25.6px;
+     border: 1px solid #d1d1d1;
+     color: #000;
+     font-size: 12px;
+     line-height: 26px;
+     cursor: pointer;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ 
+ .hot-music-title a:hover {
+     background-color: #f5f5f5;
+ }
+ 
+ .music {
+     width: 712px;
+     display: flex;
+     overflow: hidden;
+     transition: 0.5s;
+ }
+ 
+ .back-logo {
+     width: 154px;
+     height: 138px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -404px 0;
+     background-size: 685px 664px;
+     z-index: -1;
+     position: absolute;
+     left: 0;
+ }
+ 
+ .music-work {
+     height: 210px;
+     width: 138px;
+     position: relative;
+     margin-right: 40px;
+ }
+ 
+ .music-work:hover .bottem-title1 {
+     color: #cd3333;
+ }
+ 
+ .music-work a {
+     display: inline-block;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -404px 0;
+     background-size: 685px 664px;
+     z-index: -1;
+ }
+ 
+ .music-work a img {
+     width: 138px;
+     height: 138px;
+     border-radius: 8px;
+     float: left;
+ }
+ 
+ .music-logo {
+     position: absolute;
+     top: 113px;
+     right: 24px;
+     width: 18px;
+     height: 18px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -525px -466px;
+     background-size: 685px 664px;
+     z-index: 1;
+ }
+ 
+ .music-count {
+     width: 18px;
+     height: 18px;
+     font-size: 12px;
+     position: absolute;
+     top: 113px;
+     right: 5px;
+     color: white;
+ }
+ 
+ .bottem-title1 {
+     font-size: 12px;
+     float: left;
+ }
+ 
+ .bottem-title2 {
+     color: #757575;
+     float: left;
+     font-size: 12px;
+     padding-top: 5px;
+ }
+ 
+ .hot-music-right {
+     position: absolute;
+     top: 0;
+     left: 712px;
+     transition: 1s;
+ }
+ 
+ .hot-music-right-title {
+     color: #000;
+     font-family: PingFangHK, Microsoft YaHei, helvetica, arial, sans-serif;
+     font-size: 24px;
+ }
+ 
+ .hot-music-right-img {
+     background-image: url(img/square.png);
+     display: block;
+     height: 220px;
+     width: 260px;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+ }
+ 
+ @media screen and (min-width:1401px) {
+     .music {
+         width: 890px;
+     }
+     .hot-music-title {
+         width: 867px;
+     }
+     .hot-music-right {
+         left: auto;
+         right: 0;
+     }
+ }

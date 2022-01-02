@@ -1,0 +1,463 @@
+.personal {
+    width: 850px;
+    position: relative;
+    float: left;
+    margin: 50px 30px 0 0;
+}
+
+.personal-content {
+    width: 850px;
+    height: 336px;
+}
+
+.personal-content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.personal-change {
+    width: 74px;
+    height: 25.6px;
+    position: relative;
+    float: right;
+    transition: background-color .3s;
+    border: 1px solid #d1d1d1;
+    font-size: 12px;
+    line-height: 26px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-right: 173px;
+}
+
+.personal-change:hover {
+    background-color: #f5f5f5;
+}
+
+.personal-change p {
+    position: absolute;
+    right: 10px;
+}
+
+.personal-title-change {
+    background: url(img/sprite-icons@svg.fca430a4.svg) -444px -113px/461px 439px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+
+.personal-tabs1 {
+    width: 790px;
+    height: 55px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.personal-tabs2 {
+    width: 790px;
+    height: 55px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.tabs-item {
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 48px;
+    margin-right: 20px;
+    padding: 2px 15px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+}
+
+.tabs-item-active {
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 48px;
+    margin-right: 20px;
+    padding: 2px 15px;
+    border-radius: 4px;
+    /* background-color: #f0f0f0; */
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.tabs-item-active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    transform: rotate( -45deg);
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background-color: #fff;
+}
+
+.personal-tabs1 p {
+    padding-top: 12px;
+}
+
+.personal-tabs2 p {
+    padding-top: 12px;
+}
+
+.per-img {
+    width: 154px;
+    height: 154px;
+    border-radius: 8px;
+    background-size: 100%;
+}
+
+.personal-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.personal-item-update {
+    position: absolute;
+    top: 114px;
+    width: 100px;
+    height: 24px;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.per-title1 {
+    margin-top: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.personal-item:hover .per-title1 {
+    color: #cd3333;
+}
+
+.per-title2 {
+    margin-top: 4px;
+    color: #757575;
+    font-size: 12px;
+}
+
+.personal-list1 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    /* display: none; */
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list2 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list3 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list4 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list5 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list6 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    /* display: none; */
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list7 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list8 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list9 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+.personal-list10 {
+    width: 770px;
+    height: 193px;
+    margin-top: 24px;
+    display: none;
+    overflow: hidden;
+    /************************************************/
+}
+
+
+/* .tabs-item:hover {
+    background-color: white;
+    border: 1px solid black;
+} */
+
+.personal-right {
+    position: relative;
+    float: left;
+    width: 260px;
+    margin-top: 60px;
+    margin-left: -164px;
+    transition: 0.5s;
+}
+
+.personal-right-title span {
+    font-size: 24px;
+    color: black;
+    height: 34px;
+    line-height: 34px;
+    cursor: default;
+    border-bottom: none;
+    display: inline-block;
+}
+
+.personal-change2 {
+    width: 74px;
+    height: 25.6px;
+    position: relative;
+    float: right;
+    transition: background-color .3s;
+    border: 1px solid #d1d1d1;
+    font-size: 12px;
+    line-height: 26px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.personal-change2:hover {
+    background-color: #f5f5f5;
+}
+
+.personal-change2 p {
+    position: absolute;
+    right: 10px;
+}
+
+.personal-title-change2 {
+    background: url(img/sprite-icons@svg.fca430a4.svg) -444px -113px/461px 439px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+
+.personal-right-list {
+    margin-top: 15px;
+}
+
+.personal-right-list li {
+    position: relative;
+    width: 250px;
+    height: 34px;
+    margin-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    padding-top: 1px;
+}
+
+.personal-right-list li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 3px;
+    height: 12px;
+    background-color: black;
+}
+
+.personal-right-list a {
+    display: block;
+    height: 20px;
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.personal-right-list a:hover {
+    color: #cd3333;
+}
+
+.personal-right-info {
+    width: 165px;
+    position: absolute;
+    left: 0;
+}
+
+.per-info1,
+.per-info2 {
+    width: 58px;
+    height: 12px;
+    margin: 2px 0 0;
+    line-height: 12px;
+    padding-left: 18px;
+    float: left;
+    font-size: 12px;
+    color: #99a2aa;
+}
+
+.per-info1 {
+    float: left;
+}
+
+.per-info2 {
+    float: right;
+}
+
+.per-info1::before {
+    background: url(img/sprite-icons@svg.fca430a4.svg) -444px -212px/461px 439px;
+    width: 12px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.per-info2::before {
+    background: url(img/sprite-icons@svg.fca430a4.svg) -444px -198px/461px 439px;
+    width: 12px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    left: 92px;
+    top: 3px;
+}
+
+.mboyfri {
+    display: block;
+    width: 260px;
+    height: 126px;
+    background: url(img/maoerboyfriend-banner.890e0e8c.png) no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+
+/* #per1 {
+    display: none;
+} */
+
+#tabs5 {
+    display: none;
+}
+
+@media screen and (min-width:1401px) {
+    .personal-list1 {
+        width: 870px;
+    }
+    .personal-list2 {
+        width: 870px;
+    }
+    .personal-list3 {
+        width: 870px;
+    }
+    .personal-list4 {
+        width: 870px;
+    }
+    .personal-list5 {
+        width: 870px;
+    }
+    .personal-list6 {
+        width: 870px;
+    }
+    .personal-list7 {
+        width: 870px;
+    }
+    .personal-list8 {
+        width: 870px;
+    }
+    .personal-list9 {
+        width: 870px;
+    }
+    .personal-list10 {
+        width: 870px;
+    }
+    .personal-tabs1 {
+        width: 890px;
+    }
+    .personal-tabs2 {
+        width: 890px;
+    }
+    #tabs5 {
+        display: block;
+    }
+    .personal-change {
+        margin-right: 0px;
+    }
+    .personal-right {
+        margin-left: 0px;
+    }
+}

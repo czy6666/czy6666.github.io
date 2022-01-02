@@ -1,0 +1,450 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ body,
+ html {
+     min-width: 990px;
+ }
+ 
+ .header {
+     width: 100%;
+     background-color: black;
+     border-bottom: 3px solid #cd3333;
+     height: 40px;
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .header-content {
+     height: 40px;
+     margin: 0 auto;
+     width: 1140px;
+     position: relative;
+     z-index: 1;
+     margin-bottom: 2px;
+ }
+ 
+ .header-content::after {
+     content: "";
+     display: block;
+     clear: both;
+ }
+ 
+ .header-content .left {
+     width: 400px;
+     height: 40px;
+     z-index: 1;
+     margin: 0;
+     display: inline-block;
+ }
+ 
+ .header-content .left li a {
+     text-decoration: none;
+ }
+ 
+ .header-content .left li {
+     float: left;
+     list-style: none;
+     line-height: 40px;
+     padding-left: 42px;
+     font-size: 15.7px;
+ }
+ 
+ .header-content .left a :hover {
+     color: #cd3333;
+ }
+ 
+ .header-content .right {
+     float: right;
+     text-align: center;
+     line-height: 40px;
+ }
+ 
+ .header-content .right .right-list {
+     float: left;
+ }
+ 
+ .catone {
+     position: absolute;
+     top: 7px;
+     left: 10px;
+     width: 28px;
+ }
+ 
+ .cattwo {
+     position: absolute;
+     top: 4.6px;
+     right: 19rem;
+ }
+ 
+ .user {
+     height: 30px;
+     /*position: absolute;
+     top: 9px;
+     right: 27.5rem;*/
+     z-index: 1;
+ }
+ 
+ .user a:hover {
+     color: #cd3333;
+ }
+ 
+ .user a {
+     display: block;
+     text-decoration: none;
+     color: white;
+     font-size: 15.5px;
+ }
+ 
+ .user:hover .user-list {
+     display: block;
+     z-index: 4;
+ }
+ 
+ .user-list {
+     display: none;
+     transition: max-height 1s linear;
+     z-index: 4;
+     transition: 0.1s;
+ }
+ 
+ .user-list #right {
+     list-style: none;
+     text-decoration: none;
+     position: absolute;
+     top: 41px;
+     right: 14rem;
+     background-color: #1a1a1a;
+ }
+ 
+ .user-list li {
+     width: 80px;
+     padding-top: 12px;
+     padding-bottom: 8px;
+     padding-left: 40px;
+     line-height: 20px;
+     z-index: 4;
+ }
+ 
+ .user-list li:hover {
+     background-color: gray;
+ }
+ 
+ .user-list #right a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .homepage-logo {
+     width: 24px;
+     height: 24px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -641px -260px;
+     background-size: 685px 664px;
+     position: absolute;
+     top: 9px;
+     left: 10px;
+ }
+ 
+ .message-logo {
+     width: 24px;
+     height: 24px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -641px -312px;
+     background-size: 685px 664px;
+     position: absolute;
+     top: 50px;
+     left: 10px;
+ }
+ 
+ .wallet-logo {
+     width: 24px;
+     height: 24px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -641px -442px;
+     background-size: 685px 664px;
+     position: absolute;
+     top: 91px;
+     left: 10px;
+ }
+ 
+ .account-logo {
+     width: 24px;
+     height: 24px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -641px -364px;
+     background-size: 685px 664px;
+     position: absolute;
+     top: 129px;
+     left: 10px;
+ }
+ 
+ .task-logo {
+     width: 24px;
+     height: 24px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -641px -390px;
+     background-size: 685px 664px;
+     position: absolute;
+     top: 170px;
+     left: 10px;
+ }
+ 
+ .logout-logo {
+     width: 24px;
+     height: 24px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -641px -416px;
+     background-size: 685px 664px;
+     position: absolute;
+     top: 211px;
+     left: 10px;
+ }
+ 
+ .dynamic-main {
+     /*position: absolute;
+     top: 10px;
+     right: 20.5rem;*/
+     width: 80px;
+     height: 39px;
+     text-align: center;
+     z-index: 1;
+ }
+ 
+ .dynamic {
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .dynamic a {
+     text-decoration: none;
+     color: white;
+     font-size: 15.5px;
+     display: inline-block;
+ }
+ 
+ .dynamic:hover .dynamic-list {
+     display: block;
+ }
+ 
+ .dynamic a:hover {
+     color: #cd3333;
+ }
+ 
+ .dynamic-list {
+     position: absolute;
+     top: 70px;
+     right: -120px;
+     width: 340px;
+     height: 100px;
+     background-color: #1a1a1a;
+     display: none;
+     margin-top: -30px;
+     transition: max-height 1s linear;
+     z-index: 1;
+ }
+ 
+ .dynamic-list .dy {
+     color: #fff;
+     text-align: center;
+     padding-top: 26px;
+ }
+ 
+ .dynamic-check p {
+     color: #fff;
+     text-align: center;
+ }
+ 
+ .dynamic-check {
+     background-color: #333;
+     width: 300px;
+     margin-left: 20px;
+     margin-top: 1px;
+     cursor: pointer;
+     line-height: 25px;
+     border-radius: 4px;
+ }
+ 
+ .history-main {
+     /*position: absolute;
+     top: 10px;
+     right: 15.75rem;*/
+     width: 80px;
+     height: 39px;
+     text-align: center;
+ }
+ 
+ .history {
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .history a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 15.5px;
+     z-index: 1;
+ }
+ 
+ .history a:hover {
+     color: #cd3333;
+ }
+ 
+ .history:hover .history-list {
+     display: block;
+ }
+ 
+ .history-list {
+     position: absolute;
+     top: 70px;
+     right: -80px;
+     width: 240px;
+     height: 100px;
+     background-color: #1a1a1a;
+     display: none;
+     margin-top: -30px;
+     transition: max-height 1s linear;
+     z-index: 1;
+ }
+ 
+ .history-list .hi {
+     color: #fff;
+     text-align: center;
+     padding-top: 26px;
+ }
+ 
+ .history-check p {
+     color: #fff;
+     text-align: center;
+ }
+ 
+ .history-check {
+     background-color: #333;
+     width: 220px;
+     margin-left: 10px;
+     margin-top: 1px;
+     cursor: pointer;
+     line-height: 25px;
+     border-radius: 4px;
+ }
+ 
+ .submit-main {
+     /*position: absolute;
+     top: 1px;
+     right: 11rem;*/
+     width: 75px;
+     height: 39.1px;
+     background-color: #cd3333;
+     text-align: center;
+     line-height: 40px;
+     cursor: pointer;
+ }
+ 
+ .submit {
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .submit a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 15.5px;
+     z-index: 1;
+ }
+ 
+ .submit-list {
+     position: absolute;
+     top: 70px;
+     right: -2px;
+     width: 200px;
+     height: 270px;
+     background-color: #1a1a1a;
+     display: none;
+     margin-top: -30px;
+     transition: max-height 1s linear;
+     z-index: 2;
+ }
+ 
+ .submit:hover .submit-main {
+     background-color: #ee2c2c;
+ }
+ 
+ .submit1,
+ .submit2,
+ .submit3 {
+     width: 200px;
+     height: 80px;
+ }
+ 
+ .submit-list #aa {
+     float: left;
+     padding-left: 20px;
+     height: 20px;
+     padding-top: 3px;
+ }
+ 
+ .header span {
+     display: block;
+     position: relative;
+     text-align: left;
+     height: 30px;
+     line-height: 30px;
+     color: #aaa;
+     border-bottom: 1px solid #cd3333;
+     margin-top: 10px;
+     padding-left: 10px;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ .submit:hover .submit-list {
+     display: block;
+ }
+ 
+ .search {
+     width: 130px;
+     height: 29px;
+     position: absolute;
+     top: 154px;
+     right: 130px;
+     z-index: -1;
+     opacity: 0.9;
+ }
+ 
+ #search {
+     width: 220px;
+     height: 29px;
+     border: none;
+     outline: none;
+     border-radius: 20px;
+     position: relative;
+     padding-left: 10px;
+     z-index: 1;
+ }
+ 
+ #search-logo {
+     width: 18px;
+     height: 18px;
+     background-image: url(img/sprite-icons@2x.955c753c.png);
+     background-position: -267px -488px;
+     background-size: 685px 664px;
+     z-index: 3;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 7px;
+     right: -80px;
+     cursor: pointer;
+ }
+ 
+ #search-logo:hover {
+     background-position: -287px -488px;
+ }
+ 
+ .kongge {
+     position: absolute;
+     top: 3000px;
+ }
